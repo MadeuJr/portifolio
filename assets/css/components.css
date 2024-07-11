@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-family: 'Neue Machina';
+    font-size: 2em;
+    margin: 10px;
+}
+
+.header figure img {
+    width: 10em;
+    border-radius: 10em;
+    margin: 10px;
+}
+
+.image-name {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.info p {
+    margin: 5px;
+}
+
+.icon{
+    width: 0.7em; 
+    margin: 0 5px;
+}
+
+.location {
+    width: 0.65em; 
+    margin: 0 5px;
+}
+
+.icon-color{
+    color: red;
+}

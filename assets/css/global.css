@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(226, 226, 226);
+}
+
+html{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(142deg, #03001e 0%, #6103a0 33%, #a32782 66%, #887f85 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    margin: 2em 0;
+    padding: 0;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url('/assets/fonts/NeueMachina-Regular.otf');
+}

@@ -1,3 +1,11 @@
+.container{
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    width: 50%;
+    padding-bottom: 1.5em;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -6,13 +14,13 @@
 .header h1 {
     font-family: 'Neue Machina';
     font-size: 2em;
-    margin: 10px;
+    margin: 40px 10px 10px 10px;
 }
 
 .header figure img {
     width: 10em;
     border-radius: 10em;
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
 }
 
 .image-name {
@@ -27,9 +35,8 @@
 .info {
     display: flex;
     flex-direction: column;
-    width: 50%;
     align-self: flex-end;
-    margin-right: 10px;
+    margin: 15px;
 }
 
 .info p {
@@ -48,4 +55,55 @@
 
 .icon-color{
     color: red;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.acordeon{
+    display: flex;
+    justify-content: center;
+    margin: 7px 0;
+}
+
+.acordeon-text{
+    margin: 0 0 0 35px;
+}
+
+.content section button{
+    background-color: transparent;
+    padding: 0.7em 0;
+    border: 0.5px solid rgb(226, 226, 226);
+    border-radius: 15px;
+    text-align: left;
+    width: 90%;
+    font-size: larger;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.toggle{
+    width: 20px;
+    margin: 0 35px 0 0;
+}
+
+.content button:active {
+    border-style:solid;
+  }
+
+@media (max-width: 1185px) {
+    .info{
+        align-self: center;
+    }
+
+    .header h1{
+        margin-top: 0px;
+    }
 }

@@ -25,53 +25,86 @@
 <body>
     <div class="container">
         <header class="header">
-            <div class="image-name">
+            <div class="image">
                 <figure>
                     <img src="/assets/images/profile.jpeg" alt="Portifólio Photo" />
                 </figure>
-
-                <h1>
-                    Olá, <br />
-                    eu sou <br />
-                    Amadeu Jose Andrade Jr
-                </h1>
             </div>
 
             <div class="info">
-                <p><span> <img class="icon icon-color" src="/assets/images/Ocupation.svg"></span>Programador
-                    Frontend</p>
-                <p><span> <img class="location icon-color" src="/assets/images/Location.svg"></span>São Carlos -
-                    SP</p>
-                <p><span> <img class="icon icon-color" src="/assets/images/Phone.svg"></span>(16) 98857-3273</p>
-                <p><span> <img class="icon icon-color" src="/assets/images/Mail.svg"></span>amadeujajunior@gmail.com</p>
+                <div class="name">
+                    <h1>
+                        Olá, <br />
+                        eu sou <br />
+                        Amadeu Jose Andrade Jr
+                    </h1>
+                </div>
+                <div class="info-data">
+                    <p><span> <img class="icon icon-color" src="/assets/images/Ocupation.svg"></span>Programador
+                        Frontend</p>
+                    <p><span> <img class="location icon-color" src="/assets/images/Location.svg"></span>São Carlos -
+                        SP</p>
+                    <p><span> <img class="icon icon-color" src="/assets/images/Phone.svg"></span>(16) 98857-3273</p>
+                    <p><span> <img class="icon icon-color" src="/assets/images/Mail.svg"></span>amadeujajunior@gmail.com
+                    </p>
+                </div>
             </div>
         </header>
         <main class="content">
-                <button class="acordeon"> <span class="acordeon-text">Idiomas</span> <span><img class="toggle"
+
+            <section class="acordeon">
+                <button> <span class="acordeon-text">Skills</span> <span><img class="toggle"
+                            src="assets/images/Toggle.svg"></span></button>
+                <div class="panel skills">
+                    <div class="professional">
+                        <h2>Habilidades profissionais</h2>
+                        <div class="techs">
+                            <img src="assets/images/tech_logos/git.svg" alt="git">
+                            <img src="/assets/images/tech_logos/node.svg" alt="node">
+                            <img src="/assets/images/tech_logos/java.svg" alt="java">
+                            <img src="/assets/images/tech_logos/react.svg" alt="react">
+                        </div>
+                    </div>
+                    <div class="personal">
+                        <h2>Habilidades pessoais</h2>
+                        <div class="abilities">
+                            <ul>
+                                <li>Comunicativo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="acordeon">
+                <button> <span class="acordeon-text">Idiomas</span> <span><img class="toggle"
                             src="assets/images/Toggle.svg"></span></button>
                 <div class="panel">
-                    <p>teste</p>
+                    <ul class="languages">
+                        <li>Português (BR)</li>
+                        <li>Inglês</li>
+                    </ul>
                 </div>
-
-                <button class="acordeon"> <span class="acordeon-text">Skills</span> <span><img class="toggle"
+            </section>
+            <section class="acordeon">
+                <button> <span class="acordeon-text">Idiomas</span> <span><img class="toggle"
                             src="assets/images/Toggle.svg"></span></button>
                 <div class="panel">
-                    <p>teste</p>
+                    <ul class="languages">
+                        <li>Português (BR)</li>
+                        <li>Inglês</li>
+                    </ul>
                 </div>
-
-                <button class="acordeon"> <span class="acordeon-text">Portifólio</span> <span><img class="toggle"
+            </section>
+            <section class="acordeon">
+                <button> <span class="acordeon-text">Idiomas</span> <span><img class="toggle"
                             src="assets/images/Toggle.svg"></span></button>
                 <div class="panel">
-                    <p>teste</p>
+                    <ul class="languages">
+                        <li>Português (BR)</li>
+                        <li>Inglês</li>
+                    </ul>
                 </div>
-
-                <button class="acordeon"> <span class="acordeon-text">Educação</span> <span><img class="toggle"
-                            src="assets/images/Toggle.svg"></span></button>
-
-                <div class="panel">
-                    <p>teste</p>
-                </div>
-
+            </section>
         </main>
     </div>
 </body>

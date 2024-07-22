@@ -149,7 +149,7 @@ section {
     height: 0.5rem;
     margin-right: 1rem;
     margin-bottom: 1px;
-    background-image: url('/assets/images/List-Item.svg');
+    background-image: url('../images/List-Item.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }

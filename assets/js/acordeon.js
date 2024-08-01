@@ -4,11 +4,11 @@ var i;
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener('click', function () {
         this.classList.toggle('active');
-        let button = this.firstElementChild;
-        let toggleSpan = button.lastElementChild;
-        let toggle = toggleSpan.firstElementChild;
+        let toogle = document.getElementById('toogle');
+        let sec = this.parentElement;
+        sec.classList.toggle('active');
         toggle.classList.toggle('rotation');
-        var panel = this.lastElementChild;
+        var panel = this.nextElementSibling;
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
         } else {

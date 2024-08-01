@@ -196,6 +196,7 @@ section:hover {
     margin: 1rem 0;
 }
 
+
 .skills .personal .abilities ul{
     display: grid;
     grid-template-columns: 2fr 2fr;
